@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://silentpunish-sys.github.io/Silent-Punish-Official/sitemap.xml
