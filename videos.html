@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Archive | Silent Punish Official - Motivation & Discipline</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.jpg">
+    <meta name="description"
+        content="Explore our archive of motivational videos. Lessons on mindset, discipline, and success from Silent Punish Official.">
+    <meta property="og:title" content="Video Archive | Silent Punish Official">
+    <meta property="og:description"
+        content="Every video is a lesson. Explore the archive of discipline and mental strength.">
+    <meta property="og:image" content="assets/logo.jpg">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { red: '#E50914', dark: '#0a0a0a', gray: '#1f1f1f' }
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        heading: ['Oswald', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+
+<body class="antialiased bg-brand-dark text-white min-h-screen flex flex-col">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-panel py-4 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="flex items-center gap-2">
+                        <img src="assets/logo.jpg" alt="Silent Punish"
+                            class="h-16 w-16 object-cover rounded-full border-2 border-brand-red">
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html"
+                            class="hover:text-brand-red px-3 py-2 rounded-md text-sm font-bold uppercase tracking-widest transition-colors">Home</a>
+                        <a href="about.html"
+                            class="hover:text-brand-red px-3 py-2 rounded-md text-sm font-bold uppercase tracking-widest transition-colors">About</a>
+                        <a href="videos.html"
+                            class="text-brand-red px-3 py-2 rounded-md text-sm font-bold uppercase tracking-widest transition-colors">Videos</a>
+                        <a href="contact.html"
+                            class="bg-brand-red hover:bg-red-700 hover-glow text-white px-6 py-2 rounded-sm skew-x-[-10deg] text-sm font-bold transition-all transform hover:-translate-y-0.5 uppercase tracking-widest">
+                            <span class="block skew-x-[10deg]">Join Us</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white hover:text-brand-red focus:outline-none">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-dark border-t border-brand-gray absolute w-full">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html"
+                    class="block px-3 py-2 hover:text-brand-red transition-colors font-bold uppercase tracking-widest">Home</a>
+                <a href="about.html"
+                    class="block px-3 py-2 hover:text-brand-red transition-colors font-bold uppercase tracking-widest">About</a>
+                <a href="videos.html"
+                    class="block px-3 py-2 text-brand-red font-bold uppercase tracking-widest">Videos</a>
+                <a href="contact.html"
+                    class="block px-3 py-2 hover:text-brand-red transition-colors font-bold uppercase tracking-widest">Join
+                    Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flex-grow">
+        <!-- Header -->
+        <header class="relative pt-32 pb-12 bg-neutral-900 border-b border-brand-red/10">
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <h1 class="font-heading text-5xl md:text-7xl font-bold uppercase tracking-wider mb-4 animate-slide-up">
+                    Archive of <span class="text-brand-red">Pain</span>
+                </h1>
+                <p class="text-gray-400 max-w-2xl mx-auto text-lg tracking-wide">
+                    Every video is a lesson. Every lesson is a step towards mastery.
+                </p>
+            </div>
+        </header>
+
+        <!-- Video Grid -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Video 1 (Example - Change Your Mindset) -->
+                    <div
+                        class="bg-neutral-900 border border-white/5 group hover:border-brand-red/50 transition-all duration-300 video-card animate-on-scroll">
+                        <a href="https://youtu.be/YzX_AikZp8M" target="_blank"
+                            class="block relative aspect-video overflow-hidden">
+                            <img src="assets/Thumbnails/video 1 .png"
+                                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+
+                        </a>
+                        <div class="p-6">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2 truncate">CHANGE YOUR MINDSET NOW
+                                Mental Strength, Discipline & Resilience Motivation 👇👇👇
+                            </h3>
+                            <p class="text-gray-500 text-xs uppercase mb-2">5:49 • Motivation / Discipline</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 2 (Template) -->
+                    <!-- COPY THIS BLOCK TO ADD MORE VIDEOS -->
+                    <div
+                        class="bg-neutral-900 border border-white/5 group hover:border-brand-red/50 transition-all duration-300 video-card animate-on-scroll">
+                        <a href="https://youtu.be/O1aV845u5b8" target="_blank"
+                            class="block relative aspect-video overflow-hidden">
+                            <img src="assets/Thumbnails/video 2.png"
+                                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+
+                        </a>
+                        <div class="p-6">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2 truncate">100 Albert Einstein
+                                Quotes That Will Change How You Think Mindset & Genius Inspiration
+                            </h3>
+                            <p class="text-gray-500 text-xs uppercase mb-2">11:02 • Motivation / Change Mindset</p>
+                        </div>
+                    </div>
+                    <!-- END TEMPLATE -->
+
+                    <!-- Video 3 (Template) -->
+                    <div
+                        class="bg-neutral-900 border border-white/5 group hover:border-brand-red/50 transition-all duration-300 video-card animate-on-scroll">
+                        <a href="https://youtu.be/HD2GFQirEv4" target="_blank"
+                            class="block relative aspect-video overflow-hidden">
+                            <img src="assets/Thumbnails/video 3.png"
+                                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+
+                        </a>
+                        <div class="p-6">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2 truncate">10 Life Lessons from
+                                Benjamin Franklin That Will Change Your Life Success, Discipline & Wealth Mind
+                            </h3>
+                            <p class="text-gray-500 text-xs uppercase mb-2">3:26 • Motivation / Life Lessons</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 border-t border-white/10 text-center">
+        <p class="text-gray-600 text-sm uppercase tracking-widest">&copy; 2026 Silent Punish Official. All Rights
+            Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

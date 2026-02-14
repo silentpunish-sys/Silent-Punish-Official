@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Punish Official | Unleash Your Potential & Discipline</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.jpg">
+    <meta name="description"
+        content="Official website of Silent Punish. For those who understand that success isn't given—it's taken. Master discipline, stoicism, and unrelenting hard work.">
+    <meta name="keywords"
+        content="Silent Punish, Motivation, Discipline, Stoicism, Success, Mental Strength, Resilience">
+    <meta name="author" content="Silent Punish Official">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://silentpunish.github.io/">
+    <meta property="og:title" content="Silent Punish Official | Unleash Your Potential">
+    <meta property="og:description"
+        content="Silence is where the work happens. Join the movement for discipline and success.">
+    <meta property="og:image" content="assets/logo.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Silent Punish Official | Unleash Your Potential">
+    <meta property="twitter:description"
+        content="Silence is where the work happens. Join the movement for discipline and success.">
+    <meta property="twitter:image" content="assets/logo.jpg">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Config for Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { red: '#E50914', dark: '#0a0a0a', gray: '#1f1f1f' }
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        heading: ['Oswald', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Montserrat:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-brand-dark text-white font-sans antialiased overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-panel py-4 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="flex items-center gap-2">
+                        <img src="assets/logo.jpg" alt="Silent Punish"
+                            class="h-16 w-16 object-cover rounded-full border-2 border-brand-red">
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html"
+                            class="text-brand-red px-3 py-2 rounded-md text-sm font-bold uppercase tracking-widest transition-colors">Home</a>
+                        <a href="about.html"
+                            class="hover:text-brand-red px-3 py-2 rounded-md text-sm font-bold uppercase tracking-widest transition-colors">About</a>
+                        <a href="videos.html"
+                            class="hover:text-brand-red px-3 py-2 rounded-md text-sm font-bold uppercase tracking-widest transition-colors">Videos</a>
+                        <a href="contact.html"
+                            class="bg-brand-red hover:bg-red-700 hover-glow text-white px-6 py-2 rounded-sm skew-x-[-10deg] text-sm font-bold transition-all transform hover:-translate-y-0.5 uppercase tracking-widest">
+                            <span class="block skew-x-[10deg]">Join Us</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white hover:text-brand-red focus:outline-none">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-dark border-t border-brand-gray absolute w-full">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 text-brand-red font-bold uppercase tracking-widest">Home</a>
+                <a href="about.html"
+                    class="block px-3 py-2 hover:text-brand-red transition-colors font-bold uppercase tracking-widest">About</a>
+                <a href="videos.html"
+                    class="block px-3 py-2 hover:text-brand-red transition-colors font-bold uppercase tracking-widest">Videos</a>
+                <a href="contact.html"
+                    class="block px-3 py-2 hover:text-brand-red transition-colors font-bold uppercase tracking-widest">Join
+                    Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <!-- Background Overlay -->
+        <div class="absolute inset-0 bg-[url('assets/header.jpg')] bg-cover bg-center bg-no-repeat opacity-40"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-transparent to-black/80"></div>
+
+        <!-- Content -->
+        <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
+            <h1
+                class="font-heading text-6xl md:text-8xl font-bold uppercase tracking-tighter mb-6 animate-slide-up text-shadow-lg">
+                <span class="block text-white mb-2">SILENT PUNISH</span>
+                <span class="block text-brand-red">OFFICIAL</span>
+            </h1>
+            <p
+                class="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto font-light tracking-wide animate-fade-in delay-200">
+                It's not about how loud you talk. It's about how hard you work when no one is watching.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center animate-slide-up delay-500">
+                <a href="videos.html"
+                    class="bg-brand-red hover:bg-red-700 text-white px-10 py-4 text-lg font-bold uppercase tracking-widest transition-all skew-x-[-10deg] hover:shadow-[0_0_20px_rgba(229,9,20,0.6)]">
+                    <span class="block skew-x-[10deg]">Watch Now</span>
+                </a>
+                <a href="contact.html"
+                    class="border border-white hover:bg-white hover:text-brand-dark text-white px-10 py-4 text-lg font-bold uppercase tracking-widest transition-all skew-x-[-10deg]">
+                    <span class="block skew-x-[10deg]">Join The Movement</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <svg class="w-6 h-6 text-white/50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Abstract Section -->
+    <section id="about" class="py-24 bg-neutral-900 border-t border-brand-red/10 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-brand-red/5 skew-x-12 transform origin-top-right"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <div class="relative animate-on-scroll">
+                    <div class="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-brand-red"></div>
+                    <img src="assets/under.jpg" alt="Motivation"
+                        class="w-full h-auto object-cover opacity-90 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl">
+                    <div class="absolute -bottom-4 -right-4 w-24 h-24 border-b-4 border-r-4 border-brand-red"></div>
+                </div>
+                <div class="animate-on-scroll delay-200">
+                    <span class="text-brand-red font-bold tracking-widest uppercase text-sm mb-2 block">Who We
+                        Are</span>
+                    <h2 class="font-heading text-4xl md:text-5xl font-bold text-white mb-6 uppercase tracking-wider">
+                        Pain is <span class="text-brand-red">Temporary</span>
+                    </h2>
+                    <p class="text-gray-400 mb-6 text-lg leading-relaxed">
+                        We don't sell dreams. We sell the nightmare you have to endure to achieve them. Silent Punish is
+                        for those who understand that success isn't given—it's taken.
+                    </p>
+                    <p class="text-gray-400 mb-8 text-lg leading-relaxed">
+                        Through discipline, stoicism, and unrelenting hard work, we forge a mindset that cannot be
+                        broken.
+                    </p>
+                    <a href="about.html"
+                        class="text-white border-b-2 border-brand-red pb-1 hover:text-brand-red transition-colors uppercase tracking-widest font-bold text-sm">
+                        Read Our Story &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Videos Section -->
+    <section id="videos" class="py-24 bg-neutral-950 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20 animate-on-scroll">
+                <span class="text-brand-red font-bold tracking-widest uppercase text-sm mb-2 block">Our Content</span>
+                <h2 class="font-heading text-4xl md:text-5xl font-bold text-white uppercase tracking-wider">Latest <span
+                        class="text-stroke text-white">Masterpieces</span></h2>
+            </div>
+
+            <!-- Video Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Video 1 (Customizable) -->
+                <div
+                    class="bg-neutral-900 border border-white/5 group hover:border-brand-red/50 transition-all duration-300 video-card">
+                    <a href="https://youtu.be/YzX_AikZp8M" target="_blank"
+                        class="block relative aspect-video overflow-hidden">
+                        <img src="assets/Thumbnails/video 1 .png" alt="Change Your Mindset Now Video Thumbnail"
+                            class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 truncate">CHANGE YOUR MINDSET NOW
+                            Mental Strength, Discipline & Resilience Motivation 👇👇👇</h3>
+                        <p class="text-gray-500 text-xs uppercase mb-2">5:49 • Motivation / Discipline</p>
+                    </div>
+                </div>
+
+                <!-- Video 2 (Customizable) -->
+                <div
+                    class="bg-neutral-900 border border-white/5 group hover:border-brand-red/50 transition-all duration-300 video-card">
+                    <a href="https://youtu.be/O1aV845u5b8" target="_blank"
+                        class="block relative aspect-video overflow-hidden">
+                        <img src="assets/Thumbnails/video 2.png" alt="Albert Einstein Quotes Video Thumbnail"
+                            class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 truncate">100 Albert Einstein Quotes
+                            That Will Change How You Think Mindset & Genius Inspiration</h3>
+                        <p class="text-gray-500 text-xs uppercase mb-2">11:02 • Motivation / Inspiration</p>
+                    </div>
+                </div>
+
+                <!-- Video 3 (Customizable) -->
+                <div
+                    class="bg-neutral-900 border border-white/5 group hover:border-brand-red/50 transition-all duration-300 video-card">
+                    <a href="https://youtu.be/HD2GFQirEv4" target="_blank"
+                        class="block relative aspect-video overflow-hidden">
+                        <img src="assets/Thumbnails/video 3.png" alt="Benjamin Franklin Life Lessons Video Thumbnail"
+                            class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-heading text-xl font-bold text-white mb-2 truncate">10 Life Lessons from
+                            Benjamin Franklin That Will Change Your Life Success, Discipline & Wealth Mind</h3>
+                        <p class="text-gray-500 text-xs uppercase mb-2">3:26 • Motivation / Change Mindset</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Video Action Buttons -->
+            <div class="text-center mt-16 animate-on-scroll">
+                <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+                    <a href="videos.html"
+                        class="inline-flex items-center justify-center gap-3 px-10 py-5 border border-white/20 text-white text-lg font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300">
+                        View Video Archive
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCc5Sssv389tPqir8y0Hf8iw" target="_blank"
+                        class="inline-flex items-center justify-center gap-3 px-10 py-5 bg-brand-red text-white text-lg font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] clip-path-slant">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                        </svg>
+                        Visit Youtube Channel
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join/Newsletter Section -->
+    <section id="join" class="relative py-24 bg-black overflow-hidden border-t border-brand-red/20">
+        <!-- Background Pattern -->
+        <div
+            class="absolute inset-0 opacity-10 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black">
+        </div>
+
+        <div class="max-w-4xl mx-auto px-4 relative z-10 text-center animate-on-scroll">
+            <h2 class="font-heading text-5xl md:text-6xl font-bold text-white mb-6 uppercase">Join The <span
+                    class="text-brand-red">Elite</span></h2>
+            <p class="text-gray-400 mb-12 text-lg max-w-xl mx-auto">Subscribe to get the latest motivational content
+                straight to your feed. No spam. Just power.</p>
+
+            <!-- Formspree Integration -->
+            <form action="https://formspree.io/f/xkovrgjw" method="POST" class="relative max-w-lg mx-auto mb-16">
+                <input type="hidden" name="_subject" value="New Member Subscribed - Silent Punish Official" />
+                <input type="email" name="email" placeholder="ENTER YOUR EMAIL" required
+                    class="w-full px-6 py-5 bg-white/5 border border-white/20 text-white placeholder-gray-500 focus:outline-none focus:border-brand-red focus:bg-white/10 uppercase tracking-wide transition-colors">
+                <button type="submit"
+                    class="absolute right-2 top-2 bottom-2 px-8 bg-brand-red text-white font-bold uppercase tracking-widest hover:bg-red-700 transition-colors">
+                    Submit
+                </button>
+            </form>
+
+            <!-- Footer Bottom -->
+            <div class="mt-20 pt-8 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center gap-2 mb-4 md:mb-0">
+                    <span class="font-heading font-bold text-xl tracking-wider">SILENT<span
+                            class="text-brand-red">PUNISH</span></span>
+                </div>
+                <p class="text-gray-600 text-sm">&copy; 2026 Silent Punish Official. All Rights Reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="https://www.youtube.com/channel/UCc5Sssv389tPqir8y0Hf8iw" target="_blank"
+                        class="text-gray-500 hover:text-brand-red transition-all transform hover:scale-110">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS script attached -->
+    <script src="script.js"></script>
+</body>
+
+</html>

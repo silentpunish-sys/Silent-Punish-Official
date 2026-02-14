@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Montserrat:wght@300;400;600;800&display=swap');
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E50914;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b20710;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-stroke {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+    color: transparent;
+}
+
+.glass-panel {
+    background: rgba(20, 20, 20, 0.7);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.neon-glow {
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.3);
+}
+
+.hover-glow:hover {
+    box-shadow: 0 0 30px rgba(229, 9, 20, 0.5);
+}
+
+/* Animations included in Tailwind config, but adding fallback/complex ones here if needed */
+.clip-path-slant {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-slide-up {
+    animation: slideUp 1s ease-out forwards;
+}

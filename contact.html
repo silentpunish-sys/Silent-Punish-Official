@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join The Elite | Silent Punish Official - Discipline & Success</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.jpg">
+    <meta name="description"
+        content="Join the Silent Punish movement. Commit to the grind and master your life through stoicism and unrelenting discipline.">
+    <meta property="og:title" content="Join Us | Silent Punish Official">
+    <meta property="og:description"
+        content="Commit to the grind. Join the elite movement for success and mental strength.">
+    <meta property="og:image" content="assets/logo.jpg">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { red: '#E50914', dark: '#0a0a0a', gray: '#1f1f1f' }
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        heading: ['Oswald', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="antialiased bg-brand-dark text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-panel py-4 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="flex items-center gap-2">
+                        <img src="assets/logo.jpg" alt="Silent Punish"
+                            class="h-16 w-16 object-cover rounded-full border-2 border-brand-red">
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html"
+                            class="hover:text-brand-red px-3 py-2 rounded-md text-sm font-bold uppercase tracking-widest transition-colors">Home</a>
+                        <a href="about.html"
+                            class="hover:text-brand-red px-3 py-2 rounded-md text-sm font-bold uppercase tracking-widest transition-colors">About</a>
+                        <a href="videos.html"
+                            class="hover:text-brand-red px-3 py-2 rounded-md text-sm font-bold uppercase tracking-widest transition-colors">Videos</a>
+                        <a href="contact.html"
+                            class="bg-brand-red hover:bg-red-700 hover-glow text-white px-6 py-2 rounded-sm skew-x-[-10deg] text-sm font-bold transition-all transform hover:-translate-y-0.5 uppercase tracking-widest">
+                            <span class="block skew-x-[10deg]">Join Us</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white hover:text-brand-red focus:outline-none">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-dark border-t border-brand-gray absolute w-full">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html"
+                    class="block px-3 py-2 hover:text-brand-red transition-colors font-bold uppercase tracking-widest">Home</a>
+                <a href="about.html"
+                    class="block px-3 py-2 hover:text-brand-red transition-colors font-bold uppercase tracking-widest">About</a>
+                <a href="videos.html"
+                    class="block px-3 py-2 hover:text-brand-red transition-colors font-bold uppercase tracking-widest">Videos</a>
+                <a href="contact.html" class="block px-3 py-2 text-brand-red font-bold uppercase tracking-widest">Join
+                    Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="relative min-h-screen flex items-center justify-center pt-40 pb-20 px-4 sm:px-6 lg:px-8">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1920&auto=format&fit=crop"
+                alt="Motivational Gym Background" class="w-full h-full object-cover opacity-30">
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/80 to-brand-dark/90"></div>
+        </div>
+
+        <div class="max-w-4xl w-full space-y-8 relative z-10">
+            <div class="text-center animate-slide-up">
+                <h2 class="font-heading text-5xl md:text-7xl font-bold text-white uppercase tracking-wider">
+                    Join The <span class="text-brand-red">Movement</span>
+                </h2>
+                <p class="mt-4 text-xl text-gray-400 font-light tracking-wide max-w-2xl mx-auto">
+                    Commit to the grind. Sign up for exclusive content, motivation, and updates.
+                </p>
+            </div>
+
+            <div
+                class="mt-12 bg-black/50 backdrop-blur-md p-8 md:p-12 border border-white/10 rounded-lg shadow-2xl animate-fade-in">
+                <!-- 
+                    IMPORTANT: To receive emails, you must:
+                    1. Go to https://formspree.io/ and create a free account.
+                    2. Create a new form and get your unique Form ID (e.g., mdorzqzv).
+                    3. Replace 'YOUR_FORM_ID' in the action attribute below with your actual Form ID.
+                -->
+                <form class="space-y-6" action="https://formspree.io/f/xkovrgjw" method="POST">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name"
+                                class="block text-sm font-bold text-brand-red uppercase tracking-wider mb-2">Name</label>
+                            <input id="name" name="name" type="text" required
+                                class="appearance-none relative block w-full px-4 py-3 border border-gray-700 placeholder-gray-500 text-white bg-gray-900/50 focus:outline-none focus:ring-brand-red focus:border-brand-red focus:bg-black transition-colors sm:text-sm"
+                                placeholder="YOUR NAME">
+                        </div>
+                        <div>
+                            <label for="email"
+                                class="block text-sm font-bold text-brand-red uppercase tracking-wider mb-2">Email</label>
+                            <input id="email" name="email" type="email" required
+                                class="appearance-none relative block w-full px-4 py-3 border border-gray-700 placeholder-gray-500 text-white bg-gray-900/50 focus:outline-none focus:ring-brand-red focus:border-brand-red focus:bg-black transition-colors sm:text-sm"
+                                placeholder="YOUR EMAIL">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="message"
+                            class="block text-sm font-bold text-brand-red uppercase tracking-wider mb-2">Why Do You Want
+                            To Join?</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="appearance-none relative block w-full px-4 py-3 border border-gray-700 placeholder-gray-500 text-white bg-gray-900/50 focus:outline-none focus:ring-brand-red focus:border-brand-red focus:bg-black transition-colors sm:text-sm"
+                            placeholder="TELL US YOUR STORY"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit"
+                            class="group relative w-full flex justify-center py-4 px-4 border border-transparent text-sm font-bold rounded-sm text-white bg-brand-red hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-red uppercase tracking-widest transition-all hover:shadow-[0_0_20px_rgba(229,9,20,0.4)]">
+                            Submit Application
+                        </button>
+                    </div>
+                </form>
+
+                <div class="mt-8 text-center text-sm text-gray-500">
+                    <p>By joining, you agree to receive emails from Silent Punish Official.</p>
+                </div>
+            </div>
+
+            <div class="flex justify-center space-x-8 pt-8 relative z-20">
+                <a href="https://www.youtube.com/channel/UCc5Sssv389tPqir8y0Hf8iw" target="_blank"
+                    class="text-gray-400 hover:text-brand-red transition-all transform hover:scale-110">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 border-t border-white/10 text-center relative z-20">
+        <p class="text-gray-600 text-sm uppercase tracking-widest">&copy; 2026 Silent Punish Official. All Rights
+            Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
